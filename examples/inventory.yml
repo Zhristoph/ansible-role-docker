@@ -1,0 +1,6 @@
+all:
+  hosts:
+  children:
+    docker:
+      hosts:
+        docker01
